@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+nav .navbar-nav li a:hover {
+    color: #8bc63e !important;
+}
+
+nav .navbar-nav li .active {
+    color: #8bc63e !important;
+}
+
+#header {
+    background-color: #8bc63e;
+    position: relative;
+    isolation: isolate;
+    height: auto;
+    max-height: 650px;
+}
+
+#header::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: url("/img/Web\ Guidance\ -\ Preview\ 1.png") no-repeat;
+}
+
+#sponsor {
+    margin-top: 70px;
+}
+.img-home {
+    position: absolute;
+    width: 440px;
+    height: 578px;
+    left: 50px;
+    top: 315px;
+    background: url("/img/maskot\ wushu\ kejurdun\ 2022\ -\ vector\ 1.png")
+        no-repeat cover;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    #header {
+        height: auto;
+    }
+    .carousel-img img {
+        height: 32px;
+    }
+    .img-home {
+        position: absolute;
+        width: 140px;
+        height: 184px;
+        left: 24px;
+        top: 430px;
+        object-fit: contain;
+    }
+}
+
+.time {
+    font-size: 6rem;
+}
+.day {
+    font-size: 2.8rem;
+    margin-bottom: 110px;
+}
+.title-h3 {
+    font-size: 2.5rem;
+}
+.carousel-item {
+    height: 350px;
+}
+.carousel-item img {
+    height: 120px;
+}
+.carousel-global img {
+    height: 250px;
+}
+@media (max-width: 600px) {
+    .time {
+        font-size: 1.75rem;
+    }
+    .day {
+        font-size: 0.8rem;
+    }
+    .title-h3 {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    .title-h5 {
+        font-weight: bold;
+        font-size: 0.72rem;
+    }
+    #header h1 {
+        font-size: 1.25rem;
+    }
+    #header h3 {
+        font-size: 1rem;
+    }
+    .carousel-item {
+        height: 150px;
+    }
+    .carousel-item img {
+        height: 32px;
+    }
+    .carousel-global img {
+        height: 150px;
+    }
+    /* .carousel-item #capt-carousel {
+        top: 50%;
+        transform: translateY(75%);
+    } */
+    .text-footer {
+        font-size: 8px;
+    }
+    .truncating {
+        height: 55px;
+        overflow: hidden;
+    }
+}
+
+.ssx {
+    padding: 6rem;
+}
+
+footer {
+    margin-top: 75px;
+    background-color: #8bc63e;
+}
+
+.ops-img {
+    width: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.future {
+    margin-top: 120px;
+}
